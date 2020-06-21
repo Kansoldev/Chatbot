@@ -48,15 +48,10 @@ h1 {
     }
 }
 
-::placeholder {
-    color: rgb(200, 232, 241);
-}
-
 #input {
     padding: 5px; 
     border: 1px solid rgb(200, 232, 241); 
     width: 300px;
-    color: rgb(200, 232, 241);
     font-size: 20px;
     outline: none;
 }
