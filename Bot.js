@@ -97,10 +97,7 @@ const robot = ["How do you do, fellow human", "I am not a bot"];
 
       //update DOM
       addChat(input, product);
-
-      document.getElementById("chatbot").innerHTML = product;
-      speak(product);
-
+      
       //clear input value
       document.getElementById("input").value = "";
     }
